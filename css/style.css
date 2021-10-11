@@ -1,0 +1,122 @@
+/* не используется сейчас */
+header {
+  /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+  flex: 0 0 auto;
+  text-align: center;
+  margin: 10px 0 30px 0;
+}
+/* рабочий блок */
+footer {
+  /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+  flex: 0 0 auto;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  color: rgb(53, 83, 25);
+}
+footer img {
+  padding-right: 50px;
+}
+:target {
+  display: block;
+  position: relative;
+  top: -25px;
+  visibility: hidden;
+}
+div.scrollup {
+  position: fixed; /* фиксированная позиция */
+  color: #fff; /* цвет текста */
+  background-color: #2860908c; /* цвет заднего фона */
+  right: 20px; /* расстояние от правого края */
+  bottom: 0px; /* расстояние от нижнего края */
+  padding: 4px 10px; /* отступы до содержимого блока */
+  margin-bottom: 10px;
+  font-size: 30px; /* размер шрифта (иконки) */
+  border-top-left-radius: 4px; /* скругление верхнего левого угла */
+  border-top-right-radius: 4px; /* скругление верхнего правого угла */
+  cursor: pointer; /* форма курсора */
+  display: none; /* не отображать элемент */
+  text-align: center; /*выравнивание содержимого элемента по центру */
+}
+div.scrollup:hover {
+  background-color: rgba(
+    117,
+    82,
+    36,
+    0.616
+  ); /* цвет заднего фона при наведении */
+}
+.story-layer {
+  background-image: url('../img/protector.jpg');
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+}
+.my-story-content {
+  /* 1 flex-grow, 0 flex-shrink, auto flex-basis */
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+  width: 1200px;
+}
+.my-story-sidebar {
+  position: fixed;
+  text-align: left;
+  margin: 0 -150px 0 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  background-color: rgba(208, 240, 233, 0.911);
+  box-shadow: 5px 5px 20px rgb(125, 137, 161);
+}
+.my-story-sidebar img {
+  display: block;
+  margin: 0 auto;
+}
+.li-nav li {
+  margin-bottom: 10px;
+  width: 200px;
+}
+.li-nav a {
+  text-decoration: none;
+  color: #6a6c6e;
+  font-weight: 700;
+}
+.li-nav a:hover {
+  text-decoration: underline;
+}
+.my-story-text {
+  text-align: justify;
+  margin: -15px 230px 0px 230px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.my-story-text h2,
+h3 {
+  text-align: center;
+}
+.my-story-text img {
+  display: block;
+  margin: 0 auto;
+}
+.article {
+  margin-bottom: 50px;
+  background-color: rgba(208, 240, 233, 0.911);
+  box-shadow: 5px 5px 20px rgb(125, 137, 161);
+  padding: 10px 70px 40px 70px;
+}
+.article-story,
+.article-story-main {
+  line-height: 24px;
+}
+.article-story-main {
+  text-align: center;
+}
+.main-article-story-center {
+  text-align: center;
+}
