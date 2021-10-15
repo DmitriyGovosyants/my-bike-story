@@ -211,7 +211,9 @@ h3 {
 .main-article-story-center {
   text-align: center;
 }
-
+.article-story ul {
+  margin-left: 50px;
+}
 .article-story p {
   margin: 15px 15px;
 }
