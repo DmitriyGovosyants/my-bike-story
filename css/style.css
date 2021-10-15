@@ -26,7 +26,7 @@ header {
   width: 100%;
   z-index: 1001;
   font-size: 25px;
-  background-color: rgb(43, 66, 134);
+  background-color: rgb(113, 124, 72);
 }
 .menu {
   display: flex;
@@ -37,7 +37,7 @@ header {
 .menu ul {
   display: none;
   list-style-type: none;
-  background-color: rgb(43, 66, 134);
+  background-color: rgb(113, 124, 72);
 }
 .menu li {
 }
@@ -45,7 +45,7 @@ header {
   display: block;
 }
 .menu li:hover {
-  background-color: rgb(30, 26, 77);
+  background-color: #424242;
 }
 .menu li a {
   display: block;
@@ -56,7 +56,7 @@ header {
   color: rgb(169, 212, 194);
 }
 .menu ul li:hover {
-  background-color: rgb(30, 26, 77);
+  background-color: #424242;
 }
 /* header end */
 
