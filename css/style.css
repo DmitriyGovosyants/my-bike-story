@@ -222,6 +222,7 @@ h3 {
 .article-story ul {
   margin-left: 50px;
 }
-.article-story p {
+.article-story p,
+.article-story-main p {
   margin: 15px -20px;
 }
