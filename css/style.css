@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  background-attachment: fixed;
   background-image: url('../img/protector.jpg');
   -moz-background-size: 100%; /* Firefox 3.6+ */
   -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
